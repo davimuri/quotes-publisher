@@ -1,0 +1,35 @@
+{
+  "name": "quotes-publisher",
+  "version": "1.0.0",
+  "description": "Publish quotes to twitter",
+  "main": "index.js",
+  "scripts": {
+    "setup": "./node_modules/.bin/node-lambda setup",
+    "start": "./node_modules/.bin/node-lambda run",
+    "package": "./node_modules/.bin/node-lambda package",
+    "deploy": "./node_modules/.bin/node-lambda deploy",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davimuri/quotes-publisher.git"
+  },
+  "keywords": [
+    "twitter"
+  ],
+  "author": "David Murillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davimuri/quotes-publisher/issues"
+  },
+  "homepage": "https://github.com/davimuri/quotes-publisher#readme",
+  "dependencies": {
+    "aws-sdk": "^2.630.0",
+    "dotenv": "^8.2.0",
+    "twitter-lite": "^0.9.4"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "node-lambda": "^0.16.0"
+  }
+}
