@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/davimuri/quotes-publisher#readme",
   "dependencies": {
-    "aws-sdk": "^2.630.0",
+    "aws-sdk": "^2.814.0",
     "dotenv": "^8.2.0",
     "twitter-lite": "^0.9.4"
   },
